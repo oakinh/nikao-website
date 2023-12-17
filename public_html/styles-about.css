@@ -1,0 +1,50 @@
+h3 {
+    font-size: 32px;
+    margin-bottom: 6px;
+}
+
+.rectangle {
+    width: 66px;
+    height: 6px;
+    background-color: #6F00FF;
+}
+
+.top-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    max-width:1000px;
+    font-size: 20px;
+}
+
+.bio-container {
+    margin: 24px;
+    gap: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.bio-paragraph {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    font-size: 20px;
+}
+
+.right-bio {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+h4 {
+    margin: 5px;
+    margin-left: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+
+.img-border {
+    border: 10px;
+    border-color:#131628;
+}

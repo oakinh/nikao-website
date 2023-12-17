@@ -1,0 +1,133 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header {
+    background-color: #131628;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+}
+
+.white-bolder {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.jacques-francois {
+    font-family: 'Jacques Francois';
+}
+
+.logo {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    margin: 8px;
+}
+
+.right-links {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    font-size: 18px;
+    margin: 8px;
+    padding: 8px;
+    margin-bottom: 0px;
+    align-self: center;
+}
+
+.contact {
+    background-color: #6F00FF;
+    border-radius: 12px;
+    width: 96px;
+    height: 32px;
+    border: none;
+    flex: none;
+    margin-right: 16px;
+    font-size: 18px;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.flex-self-centered {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.footer {
+    background-color:#6F00FF;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+    align-items: center;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.next-steps {
+    font-weight: 900;
+    color:#F9FAF8;
+    font-size: 24px;
+}
+
+.footer-text {
+    color:#F9FAF8;
+    font-size: 18px;
+}
+
+.contact-inverted {
+    background-color:#131628;
+    color:#F9FAF8;
+    font-weight: 900;
+    border-radius: 12px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    flex: none;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+}
