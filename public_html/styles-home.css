@@ -140,9 +140,9 @@ h3 {
 
 .service-text {
     color:black;
-    text-align:justify;
     padding: 8px;
     margin-bottom: 12px;
+    text-align: center;
 }
 
 .learn-more {
