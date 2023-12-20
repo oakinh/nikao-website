@@ -43,6 +43,10 @@ body {
     align-self: center;
 }
 
+.header-text:hover {
+    color: grey;
+}
+
 .contact {
     background-color: #6F00FF;
     border-radius: 12px;
@@ -190,6 +194,18 @@ h3 {
     border: none;
     flex: none;
     font-size: 18px;
+}
+
+.contact:hover {
+    color: grey;
+}
+
+.learn-more:hover {
+    color: grey;
+}
+
+.contact-inverted:hover {
+    color: grey;
 }
 
 ul {

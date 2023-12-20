@@ -47,6 +47,10 @@ body {
     align-self: center;
 }
 
+.header-text:hover {
+    color:grey;
+}
+
 .contact {
     background-color: #6F00FF;
     border-radius: 12px;
@@ -56,6 +60,10 @@ body {
     flex: none;
     margin-right: 16px;
     font-size: 18px;
+}
+
+.contact:hover {
+    color: grey;
 }
 
 .flex-centered {
@@ -119,6 +127,10 @@ body {
     border: none;
     flex: none;
     font-size: 18px;
+}
+
+.contact-inverted:hover {
+    color: grey;
 }
 
 ul {
