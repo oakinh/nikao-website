@@ -15,7 +15,7 @@ h3, .hub-link, .hub-paragraph {
 }
 
 h3 {
-    font-size: 32px;
+    font-size: 48px;
     justify-self: center;
     align-self: center;
 }
@@ -35,4 +35,112 @@ h3 {
     font-size: 18px;
     width: 500px;
     text-align: center;
+    padding-bottom: 32px;
+}
+
+.castle-img {
+    width: 100%;
+    display:block;
+    height: auto;
+}
+
+.articles-header {
+    position: relative;
+    text-align: center;
+}
+
+.article-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#F9FAF8;
+    text-shadow: 3px 3px 2px #131628;
+    font-size: 48px;
+}
+
+.article-dark-bg {
+    background-color: #131628;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.article-grey-bg {
+    background-color: #808080;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.title-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description, .date, .article-source, .date-sourcecon, .article-source-sourcecon, .description-sourcecon {
+    font-style:italic;
+    font-size: 16px;
+    color:#F9FAF8;
+}
+
+.date, .article-source {
+    text-align: center;
+    align-self: flex-start;
+    padding-top: 25px;
+    margin-top: 10px;
+}
+
+.article-link {
+    font-size: 32px;
+    color:#F9FAF8;
+    font-weight: 900;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    text-decoration:underline;
+    padding-top: 25px;
+    margin-top: 10px;
+}
+
+.description {
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.sourcecon-dark-bg {
+    background-color: #131628;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sourcecon-light-bg {
+    display: flex;
+    justify-content: space-between;
+    background-color: #808080; 
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    padding-top:32px;
+    padding-bottom: 32px;
+}
+
+.article-img {
+    height: 240px;
+    width: auto;
+}
+
+.date-sourcecon {
+
+}
+
+.description-sourcecon {
+    padding-bottom: 24px;
+}
+
+.article-link:hover {
+    color: #CACACA;
 }
