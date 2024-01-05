@@ -30,6 +30,11 @@ body {
     margin: 8px;
 }
 
+.logo-img {
+    width: auto;
+    height: 70px;
+}
+
 .right-links {
     display: flex;
     justify-content: center;

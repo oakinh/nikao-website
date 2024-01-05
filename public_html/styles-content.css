@@ -1,0 +1,38 @@
+.the-hub {
+    background-color: #6F00FF;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3, .hub-link, .hub-paragraph {
+    color:#F9FAF8;
+    font-weight:900;
+}
+
+h3 {
+    font-size: 32px;
+    justify-self: center;
+    align-self: center;
+}
+
+.hub-link {
+    font-size: 24px;
+    padding-bottom: 80px;
+}
+
+.img-icon {
+    width: auto;
+    height: 64px;
+}
+
+.hub-paragraph {
+    align-self: center;
+    font-size: 18px;
+    width: 500px;
+    text-align: center;
+}
